@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'intro';
+  optionLoaded = "recipes";
+  onNevigation(option: string){
+    this.optionLoaded = option;
+  }
 }
